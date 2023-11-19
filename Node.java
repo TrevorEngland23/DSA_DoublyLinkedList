@@ -11,11 +11,6 @@ public class Node {
     //actions - methods
 
     //init - ctor(s)
-    public Node(int initialValue, Node next, Node previous) {
-       this.value = initialValue;
-       this.next = next;
-       this.previous = previous;
-    }
 
     public Node(int initialValue){
         this.value = initialValue;
